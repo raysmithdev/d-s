@@ -20,6 +20,8 @@ app.use(
     })
 );
 
+app.get('/api/test', (req,res) => res.json({ok: true }))
+
 function runServer(port = PORT) {
     const server = app
         .listen(port, () => {
