@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: C7m0Jq0mtp+01UfBAcN/sA+/urw0D5xuR9zEYynV4ZGP8qop0OTPHTAyEqc5HlsBE5cJ1T2IVfWYLU0E3IMdmJpx+RIl14LY+75Za/53cRfeXAEIwPmTmPMwF1E5zo210CsJ4itwStbGBojquCtw1OSbgzM465g9O3778n5GsI52eZhEvvfQ3aVpUVrGq9OzW4hchZUItL+QqFIhAubbmZVvfDktjMFQN0HBswVGtfxrIzk5njJXaRjv+DEN+hS2w1PDkQwsFKxADjNOwzMzjqt67GlyQKJsDemCcAp6AkoAGGl+YZwdZBVnZiiUeRIedPLis+89Nz6nsr+pAv9KYXNjkNlxBwWt01XJJtJiCaZi/vkIevLvIePFtO3jXPWPRbNbWUynE0ONZuUTU/8eLHC0SfbhUe2xKGvLEU9vePJDP21pxDdE0Z7lzjxbU4mwQlCIorhkVHkpKUe3uUmvKGT5084fd3bMw4Qq9EcBue6zBc/cXKtdxquC7hvwZPVra/1Fg1nsOssA1VbWZBY3qIycjAHuW6noxuu07gkHZQAlNRMzO8tzQOIMxbqgYZUKbBdZzmvavCH09A4zINCjGLDSGugrhu7itVVGwQZKaiUyeWPKSziuSRk9v6SAwgUMtnTQxkPcpx6x9aOsq11bHzPkuGLK+rH6nS5X4W/8dM0=
+  app: serene-sierra-48286
+  on:
+    repo: raysmithdev/d-s
